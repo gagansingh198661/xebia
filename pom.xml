@@ -74,13 +74,9 @@
 			</plugin>
 
 			<plugin>
-				<groupId>com.google.cloud.tools</groupId>
+				<groupId>com.google.appengine</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
-				<version>2.2.0</version>
-				<configuration>
-					<projectId>xebia-282900</projectId>
-					<version>GCLOUD_CONFIG</version>
-				</configuration>
+				<version>1.9.9</version>
 			</plugin>
 		</plugins>
 	</build>
